@@ -4,7 +4,7 @@ pipeline {
         skipStagesAfterUnstable()
     }
     stages {
-        stage('Build') {
+        stage('Builds') {
             agent {
                 docker {
                     image 'python:2-alpine'
